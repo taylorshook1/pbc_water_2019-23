@@ -17,11 +17,13 @@ Look up most common contaminants - top 5? https://www.cdc.gov/healthywater/drink
 \
 standards for contaminants from https://www.epa.gov/dwreginfo/chemical-contaminant-rules\
 \
-	-Arsenic - 10ppb or 0.010 ppm\
-	-Copper - 1.3 mg/L or 1.3 ppm*\
-	-Lead - 15ppb*\
-	-Nitrate - 10 mg/L or 10 ppm\
+	-Arsenic - 10ppb or 0.010 ppm MCLG (goal): 0\
+	-Copper - 1.3 mg/L or 1.3 ppm* MCLG: 1.3\
+	-Lead - 15ppb* MCLG: 0\
+	-Nitrate - 10 mg/L or 10 ppm MCLG: 10\
 	-Radon\
+\
+Goals:\
 \
 *Standards for lead and nitrate are when exceeded in 10% of samples in an area\
 \
@@ -31,4 +33,16 @@ Objective: see levels of Arsenic, Copper, Lead, and Nitrate in water around my c
 Fields I\'92ll need:\
 SAMPLE DATE, LOCATION CODE, CONTAMCODE, RESULTS, UOM\
 \
-ipywidget @interact to toggle contaminant name on map}
+ipywidget @interact to toggle contaminant name on map\
+\
+visualizations\
+1. Map of testing locations with results, date, \'93safe\'94 or unsafe in pop-up for location\
+2. Graph of each contam for all county over time\
+3. Contams out of acceptable range\
+4. Contams out of goal range\
+define goal line and violation line to plot on top of line/scatter plots\
+\
+Above visulization, type out question.\
+below, elaborate on insights\
+\
+x-ticks rotation = 90 degrees}
